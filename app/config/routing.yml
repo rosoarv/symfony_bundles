@@ -1,3 +1,7 @@
+todo_user:
+    resource: "@TodoUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
